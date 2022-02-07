@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Kenoky';
+    src: url("./KenokyLight-3zezL.ttf");
+}
+
 body {
     background-color: #F0EED7;
     color: #161616;
@@ -107,5 +112,18 @@ header .menu img {
     cursor: pointer;
 }
 
-/* continue from here */
-/* continue from here */
+.inner-container-1:hover {
+    background-image: url(image/1.jpg);
+}
+
+.inner-container-2:hover {
+    background-image: url(image/2.jpg);
+}
+
+.inner-container-3:hover {
+    background-image: url(image/3.jpg);
+}
+
+.inner-container-4:hover {
+    background-image: url(image/4.jpg);
+} 
